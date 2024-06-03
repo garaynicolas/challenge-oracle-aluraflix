@@ -1,0 +1,15 @@
+.equipo {
+    background-color: black;
+}
+
+
+.titulo {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    font-weight: 700;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+}

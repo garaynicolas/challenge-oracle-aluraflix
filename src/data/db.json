@@ -1,0 +1,76 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "ChatGpt para practicar Ingles",
+      "categoria": "gestion",
+      "imagen": "/img/1.jpg",
+      "video": "https://www.youtube.com/watch?v=Yz-6uHdwBPE",
+      "descripcion": "Ya no es novedad que las inteligencias artificiales existen para ayudarnos con nuestras tareas laborales y del día a día, pero ¿sabías que puedes aprender y practicar inglés utilizando una IA? En este video, Christian Velasco, nos enseña como podemos utilizar el ChatGPT para practicar inglés."
+    },
+    {
+      "id": 2,
+      "titulo": "7 Soft Skills más demandadas de 2024",
+      "categoria": "gestion",
+      "imagen": "/img/2.jpg",
+      "video": "https://www.youtube.com/watch?v=_-9grhDhxiU",
+      "descripcion": "Siempre estamos hablando aquí en el canal de Alura Latam sobre la importancia de las Soft Skills, y en este video vamos a listar las 7 habilidades blandas más demandadas por las empresas en este 2024."
+    },
+    {
+      "id": 3,
+      "titulo": "Cómo ser más productivo",
+      "categoria": "gestion",
+      "imagen": "/img/3.jpg",
+      "video": "https://www.youtube.com/watch?v=TF_Rde1kbw8",
+      "descripcion": "Desde la gestión del tiempo hasta la optimización del espacio de trabajo, cada aspecto crucial de la productividad será desglosado con claridad y precisión. Descubrirás cómo identificar tus prioridades, eliminar distracciones y mantener un enfoque agudo en tus metas a largo plazo."
+    },
+    {
+      "id": 4,
+      "titulo": "React Hooks: ¿qué son y cómo funcionan?",
+      "categoria": "frontend",
+      "imagen": "/img/4.jpg",
+      "video": "https://www.youtube.com/watch?v=9xlea2yDFaY",
+      "descripcion": "En este Alura+ el instructor Daniel Riverol nos enseña los diferentes usos de uno de los hooks más utilizados en React"
+    },
+    {
+      "id": 5,
+      "titulo": "Consejos de CSS FlexBox para comenzar",
+      "categoria": "frontend",
+      "imagen": "/img/5.jpg",
+      "video": "https://www.youtube.com/watch?v=EB4vWLzfVcI",
+      "descripcion": "En esta nueva edición de Alura + aprenderemos un poco más sobre los primeros pasos para empezar a trabajar con Flexbox en CSS y conoceremos las principales etiquetas y cómo aplicarlas."
+    },
+    {
+      "id": 6,
+      "titulo": "Como utilizar el Display block, inline, inline-block",
+      "categoria": "frontend",
+      "imagen": "/img/6.jpg",
+      "video": "https://www.youtube.com/watch?v=AG2QssLpQzI",
+      "descripcion": "Sabemos que posicionar elementos utilizando CSS a veces puede ser algo desafiador, por eso en este video nuestra instructora Jeanmarie Quijada te explica que es la propiedad Display en CSS y algunos de sus valores, te mostrara en código el comportamiento del elemento DIV al utilizar algunos de los valores de la propiedad display como: block, inline y inline block."
+    },
+    {
+      "id": 7,
+      "titulo": "Banco de Datos MySQL",
+      "categoria": "backend",
+      "imagen": "/img/7.jpg",
+      "video": "https://www.youtube.com/watch?v=8J0AoPZMVxA",
+      "descripcion": "En esta serie de videos en alianza con Oracle, explicaremos y exploraremos las herramientas de Oracle. En este episodio recibimos a Narciso Junior, quien se desempeña como LATAM Cloud Evangelist en la empresa."
+    },
+    {
+      "id": 8,
+      "titulo": "Spring Framework. ¿Qué es?",
+      "categoria": "backend",
+      "imagen": "/img/8.jpg",
+      "video": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+      "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo."
+    },
+    {
+      "id": 9,
+      "titulo": "¿Sabes qué es NodeJS?",
+      "categoria": "backend",
+      "imagen": "/img/9.jpg",
+      "video": "https://www.youtube.com/watch?v=o8x_n4Px1N0",
+      "descripcion": "¿Es un lenguaje de programación? ¿Es un ambiente de desarrollo? ¿Una herramienta? En este video nuestro instructor, Leonardo Castillo, nos explica qué es NodeJS y para qué sirve."
+    }
+  ]
+}
