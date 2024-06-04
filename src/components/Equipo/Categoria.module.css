@@ -1,0 +1,23 @@
+.equipo {
+  background-color: rgb(44, 44, 44);
+  padding-bottom: 20px;
+}
+
+.titulo {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+  font-weight: 700;
+  border: 2px solid #8a2be2;
+  background-color: blueviolet;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+}
