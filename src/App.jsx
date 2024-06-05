@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Categoria from "./components/Equipo/Categoria";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import styles from "./App.module.css"
 import db from "./data/db.json";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <Header />
+      <div className={styles.container}>
       {categorias.map((categoria) => (
         <Categoria
           key={categoria.id}
@@ -30,6 +32,8 @@ function App() {
           )}
         />
       ))}
+      </div>
+      
       <Footer />
     </>
   );
