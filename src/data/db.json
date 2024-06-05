@@ -74,8 +74,8 @@
     }
   ],
   "categorias": [
-    { "id": 1, "nombre": "gestion" },
-    { "id": 2, "nombre": "frontend" },
-    { "id": 3, "nombre": "backend" }
+    { "id": 1, "nombre": "gestion", "colorPrimario": "#8e44ad" },
+    { "id": 2, "nombre": "frontend", "colorPrimario": "#3498db" },
+    { "id": 3, "nombre": "backend", "colorPrimario": "#f1c40f " }
   ]
 }

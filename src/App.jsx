@@ -24,6 +24,7 @@ function App() {
           key={categoria.id}
           nombre={categoria.nombre}
           categorias={categorias}
+          colorPrimario={categoria.colorPrimario}
           videos={videos.filter(
             (video) => categoria.nombre === video.categoria
           )}

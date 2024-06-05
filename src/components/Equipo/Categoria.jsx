@@ -1,21 +1,20 @@
-import { useEffect } from "react";
 import styles from "./Categoria.module.css";
-import { useState } from "react";
 import CardVideo from "../CardVideo/CardVideo";
-import db from "../../data/db.json";
+import hexToRgba from "hex-to-rgba";
 
-export default function Categoria({videos,categoria,nombre}) {
-  
-  
-  // const obj = {
-  //     backgroundColor: hexToRgba(colorPrimario, 0.6),
-  //   };
+export default function Categoria({ videos,colorPrimario, nombre }) {
+  const obj = {
+      backgroundColor: hexToRgba(colorPrimario, 0.6),
+      borderColor: hexToRgba(colorPrimario, 1)
+    };
   return (
     <>
       <section className={styles.equipo}>
-        <h3 className={styles.titulo}>{nombre}</h3>
+        <h3 className={styles.titulo} style={obj}>{nombre.toUpperCase()}</h3>
         <div className={styles.cards}>
-          {videos.map( video => <CardVideo key={video.id}/>)}   
+          {videos.map((video) => (
+            <CardVideo key={video.id} imagen={video.imagen} />
+          ))}
         </div>
       </section>
     </>
