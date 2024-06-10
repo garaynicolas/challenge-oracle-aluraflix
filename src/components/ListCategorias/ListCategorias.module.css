@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Si los elementos son columnas, se alinea así */
+    align-items: center; /* Alinea los elementos hijos en el centro horizontalmente */
+    justify-content: center; /* Alinea los elementos hijos en el centro verticalmente */
+    padding: 20px; /* Agrega un poco de relleno para un mejor diseño */
+    background-color: rgb(44, 44, 44);
+}
