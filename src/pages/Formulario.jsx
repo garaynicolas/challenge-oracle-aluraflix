@@ -40,7 +40,7 @@ export default function Formulario() {
             <option value="backend">Backend</option>
             <option value="gestion">Gestion</option>
           </select>
-          <label htmlFor="imagen">Imagen</label>
+          <label htmlFor="imagen">URL de Imagen</label>
           <input
             className={styles.input}
             id="imagen"
@@ -50,7 +50,7 @@ export default function Formulario() {
             onChange={onInputChange}
             required
           />
-          <label htmlFor="video">Video</label>
+          <label htmlFor="video">URL Video de Youtube</label>
           <input
             className={styles.input}
             id="video"
