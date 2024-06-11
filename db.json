@@ -1,4 +1,5 @@
 {
+  "__single": true,
   "videos": [
     {
       "id": "d58f84a5-68e5-4d9b-bad6-b8b1a14c8b18",
@@ -9,20 +10,12 @@
       "descripcion": "Ya no es novedad que las inteligencias artificiales existen para ayudarnos con nuestras tareas laborales y del día a día, pero ¿sabías que puedes aprender y practicar inglés utilizando una IA? En este video, Christian Velasco, nos enseña como podemos utilizar el ChatGPT para practicar inglés."
     },
     {
-      "id": "2f7f56d6-b7ae-4a5e-9b75-1f52910bbff2",
-      "titulo": "7 Soft Skills más demandadas de 2024",
-      "categoria": "gestion",
-      "imagen": "/img/2.jpg",
-      "video": "https://www.youtube.com/watch?v=_-9grhDhxiU",
-      "descripcion": "Siempre estamos hablando aquí en el canal de Alura Latam sobre la importancia de las Soft Skills, y en este video vamos a listar las 7 habilidades blandas más demandadas por las empresas en este 2024."
-    },
-    {
-      "id": "eb44c53e-4724-40b8-85e0-8af1e9e78517",
       "titulo": "Cómo ser más productivo",
       "categoria": "gestion",
       "imagen": "/img/3.jpg",
       "video": "https://www.youtube.com/watch?v=TF_Rde1kbw8",
-      "descripcion": "Desde la gestión del tiempo hasta la optimización del espacio de trabajo, cada aspecto crucial de la productividad será desglosado con claridad y precisión. Descubrirás cómo identificar tus prioridades, eliminar distracciones y mantener un enfoque agudo en tus metas a largo plazo."
+      "descripcion": "Desde la gestión del tiempo hasta la optimización del espacio de trabajo, cada aspecto crucial de la productividad será desglosado con claridad y precisión. Descubrirás cómo identificar tus prioridades, eliminar distracciones y mantener un enfoque agudo en tus metas a largo plazo.",
+      "id": "eb44c53e-4724-40b8-85e0-8af1e9e78517"
     },
     {
       "id": "1ac637e0-ef7a-4b95-bd1e-77c8edca9d5b",
@@ -57,12 +50,12 @@
       "descripcion": "En esta serie de videos en alianza con Oracle, explicaremos y exploraremos las herramientas de Oracle. En este episodio recibimos a Narciso Junior, quien se desempeña como LATAM Cloud Evangelist en la empresa."
     },
     {
-      "id": "5aaf2b10-2ec7-4c97-b8ed-9f0f6a1c44c1",
       "titulo": "Spring Framework. ¿Qué es?",
       "categoria": "backend",
       "imagen": "/img/8.jpg",
       "video": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
-      "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo."
+      "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo.",
+      "id": "5aaf2b10-2ec7-4c97-b8ed-9f0f6a1c44c1"
     },
     {
       "id": "de57b73b-4637-4dd1-9e08-5b872cfde37d",
@@ -74,8 +67,20 @@
     }
   ],
   "categorias": [
-    { "id": 1, "nombre": "gestion", "colorPrimario": "#8e44ad" },
-    { "id": 2, "nombre": "frontend", "colorPrimario": "#3498db" },
-    { "id": 3, "nombre": "backend", "colorPrimario": "#f1c40f" }
+    {
+      "id": 1,
+      "nombre": "gestion",
+      "colorPrimario": "#8e44ad"
+    },
+    {
+      "id": 2,
+      "nombre": "frontend",
+      "colorPrimario": "#3498db"
+    },
+    {
+      "id": 3,
+      "nombre": "backend",
+      "colorPrimario": "#f1c40f"
+    }
   ]
 }

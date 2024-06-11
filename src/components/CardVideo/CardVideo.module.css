@@ -20,6 +20,7 @@
   justify-content: space-between;
   gap: 10px;
   padding: 10px;
+  align-items: center;
 }
 
 .boton {
@@ -31,6 +32,7 @@
   border-radius: 8px;
   outline: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* ------------------------------------------------ */
@@ -56,14 +58,13 @@
 
 .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 0px;
+  right: 5px;
   font-size: 30px;
   cursor: pointer;
   color: white;
+  font-size: 35px;
 }
-
-
 
 /* ------------------------------ */
 .div {
@@ -98,19 +99,30 @@
 .button {
   border: 2px solid;
   padding: 13px;
-  background-color:  rgb(58, 58, 58);
+  background-color: rgb(58, 58, 58);
   color: white;
   border-color: white;
   border-radius: 8px;
   outline: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .button:hover {
   font-weight: 600;
   background-color: rgb(58, 58, 58); /* Fondo azul */
-  color: #1E90FF;              /* Texto blanco */
-  border-color: #1E90FF;     /* Borde azul */
+  color: #1e90ff; /* Texto blanco */
+  border-color: #1e90ff; /* Borde azul */
   box-shadow: inset 0 0 10px rgba(30, 144, 255, 0.7); /* Sombra interior azul */
+  cursor: pointer;
 }
 
+.textarea {
+  resize: none;
+}
+
+.botonescard {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

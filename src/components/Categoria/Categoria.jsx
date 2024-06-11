@@ -11,10 +11,10 @@ export default function Categoria({ nombre, colorPrimario, videos }) {
   };
   return (
     <>
+      <h1 className={styles.titulo} style={obj}>
+        {nombre.toUpperCase()}
+      </h1>
       <section className={styles.equipo}>
-        <h3 className={styles.titulo} style={obj}>
-          {nombre.toUpperCase()}
-        </h3>
         <div className={styles.cards}>
           {videos.map((video) => (
             <CardVideo
