@@ -32,3 +32,85 @@
   outline: none;
   font-weight: 600;
 }
+
+/* ------------------------------------------------ */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  border-radius: 10px;
+  position: relative;
+  width: auto;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+/* ------------------------------ */
+.div {
+  display: flex;
+  flex-direction: column; /* Apilar los elementos verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  text-align: center;
+  padding: 30px;
+  gap: 10px;
+  color: white;
+  background-color: rgb(23, 59, 114);
+}
+
+.h1 {
+  font-size: 30px;
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+}
+
+.button {
+  border: 2px solid;
+  padding: 13px;
+  background-color:  rgb(58, 58, 58);
+  color: white;
+  border-color: white;
+  border-radius: 8px;
+  outline: none;
+  font-weight: 600;
+}
+
+.button:hover {
+  font-weight: 600;
+  background-color: rgb(58, 58, 58); /* Fondo azul */
+  color: #1E90FF;              /* Texto blanco */
+  border-color: #1E90FF;     /* Borde azul */
+  box-shadow: inset 0 0 10px rgba(30, 144, 255, 0.7); /* Sombra interior azul */
+}
+

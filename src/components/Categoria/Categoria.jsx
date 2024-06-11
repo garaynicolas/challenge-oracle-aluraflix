@@ -18,6 +18,7 @@ export default function Categoria({ nombre, colorPrimario, videos }) {
         <div className={styles.cards}>
           {videos.map((video) => (
             <CardVideo
+              video={video}
               key={video.id}
               colorPrimario={colorPrimario}
               imagen={video.imagen}
