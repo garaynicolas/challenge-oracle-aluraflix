@@ -66,6 +66,7 @@ export default function Formulario() {
             id="descripcion"
             type="text"
             name="descripcion"
+            rows="6"
             value={descripcion}
             onChange={onInputChange}
             required
